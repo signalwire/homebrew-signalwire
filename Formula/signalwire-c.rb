@@ -2,7 +2,7 @@ class SignalwireC < Formula
   desc "signalwire-c"
   homepage "https://github.com/signalwire/signalwire-c"
   url "http://files.freeswitch.org/downloads/libs/signalwire-client-c-1.0.0.tar.gz"
-  sha256 "432b699f853b69f69c0f622d62878ae81889dd492a6fd915a2259f45eae60561"
+  sha256 "85b0493a2332b2f763a8a2f92f4e9905c7d9c49eb4be4218f5aa99b87a28dbce"
 
 
   depends_on "cmake" => :build
