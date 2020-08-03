@@ -1,4 +1,4 @@
-class SofiaSIp < Formula
+class SofiaSip < Formula
   desc "sofia-sip"
   homepage "https://github.com/freeswitch/sofia-sip"
   url "https://github.com/freeswitch/sofia-sip/archive/f5d44540d32b646133f685f04cb8b6658f748714.zip"
