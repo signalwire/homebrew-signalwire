@@ -1,8 +1,8 @@
 class SofiaSip < Formula
   desc "sofia-sip"
   homepage "https://github.com/freeswitch/sofia-sip"
-  url "https://files.freeswitch.org/downloads/libs/sofia-sip/sofia-sip-1.13.8-756ab9b5c9.tar.gz"
-  sha256 "ebd006a98a7dff6e7f4d8357c5ebeee1d3bee3ac29ff213a4909e845f230fcbe"
+  url "https://files.freeswitch.org/downloads/libs/sofia-sip/sofia-sip-1.13.9-f6ee306084.tar.gz"
+  sha256 "daf75c41408c559c2d58a8fd4d39be4a8ff5144bc1db220d4dbc28deeed6670a"
 
   depends_on "openssl"
 
