@@ -1,8 +1,8 @@
 class Libks < Formula
   desc "libks"
   homepage "https://github.com/signalwire/libks"
-  url "https://github.com/signalwire/libks/archive/v1.8.2.tar.gz"
-  sha256 "131d7896c81a7f3c9bf06860e4f564ca558d4be1614568fec688b3eb66d38107"
+  url "https://github.com/signalwire/libks/archive/v1.8.3.tar.gz"
+  sha256 "c677c36a0d8ceca2e53e07d1de66b87045ac2784df458d012557e2432692528b"
 
 
   depends_on "cmake" => :build
