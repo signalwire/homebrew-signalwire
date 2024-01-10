@@ -1,8 +1,8 @@
 class Spandsp < Formula
   desc "spandsp"
   homepage "https://github.com/freeswitch/spandsp"
-  url "https://files.freeswitch.org/downloads/libs/spandsp-3.0.0-f995f452ee.tar.gz"
-  sha256 "070444fe063f6d1bcdbd57f18847adc93fecd9be8240dc81de553fe5abc5f878"
+  url "https://github.com/freeswitch/spandsp/archive/0d2e6ac65e0e8f53d652665a743015a88bf048d4.tar.gz"
+  sha256 "151bd945874f5b0c2971b6431bd753e5bd83d7ff3c799776e359d949bfae1ea5"
 
   depends_on "libtiff"
   depends_on "libjpeg"
