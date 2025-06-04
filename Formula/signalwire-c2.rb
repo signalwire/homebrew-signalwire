@@ -1,8 +1,8 @@
 class SignalwireC2 < Formula
   desc "signalwire-c2"
   homepage "https://github.com/signalwire/signalwire-c"
-  url "https://github.com/signalwire/signalwire-c/archive/v2.0.0.tar.gz"
-  sha256 "7916ad76b2c2c75ff616d19bf044894771b3f8602b80a6f74d8ba26206faef79"
+  url "https://github.com/signalwire/signalwire-c/archive/v2.0.2.tar.gz"
+  sha256 "6ae91347aafa2d23ddb6f7262f759832599ee85daee4bc6e650e0e4fe2189967"
 
 
   depends_on "cmake" => :build
