@@ -1,14 +1,20 @@
 class Spandsp < Formula
   desc "spandsp"
   homepage "https://github.com/freeswitch/spandsp"
-  url "https://files.freeswitch.org/downloads/libs/spandsp-3.0.0-0d2e6ac65e.tar.gz"
-  sha256 "29c728fab504eb83aa01eb4172315c2795c8be6ef9094005f21bd1e3463f5f2f"
+  url "https://github.com/freeswitch/spandsp/archive/v3.1.0.tar.gz"
+  sha256 "a32a548a7d8a370d46481f4aa303241f605e41136459340c729fe4569d451025"
 
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
   depends_on "libtiff"
   depends_on "libjpeg"
   depends_on "doxygen"
 
   def install
+    # The GitHub tarball ships no configure script, only configure.ac.
+    system "./autogen.sh"
+
     args = ["--disable-dependency-tracking", "--prefix=#{prefix}", "--with-pic"]
     system "./configure", *args
     system "make"
