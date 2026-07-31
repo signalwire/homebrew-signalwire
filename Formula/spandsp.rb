@@ -1,8 +1,8 @@
 class Spandsp < Formula
   desc "spandsp"
   homepage "https://github.com/freeswitch/spandsp"
-  url "https://github.com/freeswitch/spandsp/archive/v3.1.0.tar.gz"
-  sha256 "a32a548a7d8a370d46481f4aa303241f605e41136459340c729fe4569d451025"
+  url "https://github.com/freeswitch/spandsp/archive/v3.1.1.tar.gz"
+  sha256 "71b3f1492cd5ca3dacdaa7eb6b54f5d14e0e2267ae0a1df09a87ca93cfeb1401"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
